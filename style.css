@@ -1,3 +1,4 @@
+/* Classes that provide general formatting or stylization that is used multiple times */
 .app {
     box-sizing: border-box;
 }
@@ -33,7 +34,11 @@ label, input::placeholder {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
 }
+/* End of multi-class area */
 
+
+/* Start of Header Section */
+/* ----------------------- */
 .header-main {
     display: grid;
     grid-template-rows: 100%;
@@ -75,7 +80,12 @@ label, input::placeholder {
 .header-image-area img {
     width: 90%;
 }
+/* --------------------- */
+/* End of Header Section */
 
+
+/* Start of Main Section */
+/* --------------------- */
 .main-area {
     display: grid;
     height: 100vh;
@@ -83,6 +93,7 @@ label, input::placeholder {
     grid-template-columns: 49.5% 1% 49.5%;
 }
 
+/* Start of Schedule Section */
 .main-schedule {
     display: grid;
     grid-area: 1 / 1 / span 3 / span 1;
@@ -113,7 +124,9 @@ label, input::placeholder {
 .schedule-ul li {
     padding-bottom: 9px;
 }
+/* End of Schedule Section */
 
+/* Start of Priority Section */
 .main-priority {
     display: grid;
     grid-area: 1 / 3 / span 1 / span 1;
@@ -147,7 +160,9 @@ label, input::placeholder {
     font-weight: bold;
     padding-bottom: 5px;
 }
+/* End of Priority Section */
 
+/* Start of To Do Section */
 .main-todo {
     display: grid;
     grid-area: 3 / 3 / span 1 / span 1;
@@ -180,7 +195,9 @@ label, input::placeholder {
 .todo-ul li {
     padding-bottom: 5px;
 }
+/* End of To Do Section */
 
+/* Start of Notes Section */
 .notes-main {
     display: grid;
     height: 40vh;
@@ -216,9 +233,12 @@ label, input::placeholder {
 .notes-ul li {
     padding-bottom: 5px;
 }
+/* End of Note Section */
+/* ------------------- */
+/* End of Main Section */
 
 
-
+/* Media Query Section */
 @media (max-width: 1024px) {
     .header-main {
         order: 0;
@@ -272,3 +292,4 @@ label, input::placeholder {
         background-image: none;
     }
 }
+/* End of Media Queries */
