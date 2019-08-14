@@ -71,7 +71,7 @@ label, input::placeholder {
 .header-image-area {
     display: flex;
     grid-area: 1 / 2 / span 1 / span 1;
-    background-image: url(./images/title-image.png);
+    background-image: url(./images/title-image.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
