@@ -1,4 +1,4 @@
-# Assistant to the Region Manager
+# Assistant to the Regional Manager
 
 ### Introduction
 This is my first kinda-sorta-actual app that I was able to create after 14 weeks at Code Immersives Web Development program in NYC. This is a simple day planner app that utilizes HTML, CSS, and Javascript... all with NO BOOTSTRAP! It still has a little ways to go as it has no backend, but it's getting there.
