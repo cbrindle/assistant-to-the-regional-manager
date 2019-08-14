@@ -1,33 +1,15 @@
-# YouDo
+# Assistant to the Region Manager
 
 ### Introduction
-
-Please don't name this project "YouDo". That is a bad, bad name.
-
-Instead, you're going to name it whatever you want (I *guess* even "YouDo"), and make it yours in many other ways as well!
+This is my first kinda-sorta-actual app that I was able to create after 14 weeks at Code Immersives Web Development program in NYC. This is a simple day planner app that utilizes HTML, CSS, and Javascript... all with NO BOOTSTRAP! It still has a little ways to go as it has no backend, but it's getting there.
 
 
-### How To Make YouDo Yours
-
-You should pick:
-
-1. What features your app has. Feel free to take features away that don't match your vision! For additional features, some ideas are below, but you are also required to add a feature of your own!
-2. What the layout should be. *At least* two layouts, with each layout requiring a wireframe approved by a member of the instructional staff.
-3. Your visual theme. Go ahead, dive into the css. Just don't leave it so plain!
-
-
-### Feature Ideas
-
-1. A button to delete all items, regardless of whether they're complete or not.
-2. A per-todo button to delete, possibly appearing on hover.
-3. A button to sort by date added or priority.
-4. Add either a hover style to see which one you're currently looking at or an every-other-todo style to make scanning horizontally easier.
-5. Add toggling from done back.
-6. Add the ability to set a due date. This will likely require adding to the html.
-   * Add the ability to see what's overdue.
-   * Add the ability to sort by due date.
-  
-
-### Once you're done, let's deploy it!
-
-Use surge. It's cool.
+### Features:
+- Add an item to a respective list by typing it into it's corresponding input box and clicking ADD.
+- Mark an item complete by clicking on it. The stylization will change.
+- Want to undo marking an item as complete? Simply click it again to change it back to normal.
+- A Remove Completed button will remove all items marked as complete from their respective lists.
+- The schedule area has edge case catching that does not allow the end time of an event to come before the start time.
+- Edge casing of preventing empty values being added to a list has also been implemented.
+- The app is fully responsive to a desktop, tablet, and mobile view.
+- Also... NO BOOTSTRAP!
