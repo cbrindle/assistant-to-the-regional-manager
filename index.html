@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>YouDo (Temp)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="./images/icon.jpg">
+    </head>
+    <body>
+        <div class="app">
+            <header>
+                <div class="header-main">
+                    <section class="header-text-area">
+                        <p>Dunder Mifflin:<span class="title-smaller"></span></p>
+                    </section>
+                    <section class="header-image-area">
+                        <!-- <img src="./images/title-image.png"> -->
+                    </section>
+                </div>
+            </header>
+            <main>
+                <div class="spacer-hor">
+                    <!-- Intentionally blank -->
+                </div>
+                <div class="main-area">
+                    <div class="main-schedule">
+                        <section class="main-schedule-header header-area-style">
+                            <section class="group-item">
+                                <input class="schedule-input" type="text" name="schedule-input" placeholder="Type item for schedule">
+                            </section>
+                            <section class="group-item">
+                                <label for="start-time">Start Time</label>
+                                <select class="start-time" name="start-time">
+                                    <option value="6">6am</option>
+                                    <option value="7">7am</option>
+                                    <option value="8">8am</option>
+                                    <option value="9">9am</option>
+                                    <option value="10">10am</option>
+                                    <option value="11">11am</option>
+                                    <option value="12">12pm</option>
+                                    <option value="13">1pm</option>
+                                    <option value="14">2pm</option>
+                                    <option value="15">3pm</option>
+                                    <option value="16">4pm</option>
+                                    <option value="17">5pm</option>
+                                    <option value="18">6pm</option>
+                                    <option value="19">7pm</option>
+                                    <option value="20">8pm</option>
+                                </select>
+                            </section>
+                            <section class="group-item">
+                                <label for="end-time">End Time</label>
+                                <select class="end-time" name="end-time">
+                                    <option value="6">6am</option>
+                                    <option value="7">7am</option>
+                                    <option value="8">8am</option>
+                                    <option value="9">9am</option>
+                                    <option value="10">10am</option>
+                                    <option value="11">11am</option>
+                                    <option value="12">12pm</option>
+                                    <option value="13">1pm</option>
+                                    <option value="14">2pm</option>
+                                    <option value="15">3pm</option>
+                                    <option value="16">4pm</option>
+                                    <option value="17">5pm</option>
+                                    <option value="18">6pm</option>
+                                    <option value="19">7pm</option>
+                                    <option value="20">8pm</option>
+                                </select>
+                            </section>
+                            <section class="group-item">
+                                <button class="add-schedule">ADD</button>
+                            </section>
+                        </section>
+                        <section class="main-schedule-list-area list-area-style">
+                            <div class="error-div-schedule">
+                                <p class="schedule-error">
+                                    <!-- Error message for empty schedule item -->
+                                </p>
+                            </div>
+                            <section class="schedule-list-item-area">
+                                <ul class="schedule-ul">
+                                    <!-- List items dynamically added -->
+                                </ul>
+                            </section>
+                        </section>
+                    </div>
+                    <div class="main-priority">
+                        <div class="main-priority-header header-area-style">
+                            <section class="group-item">
+                                <input class="priority-input" type="text" name="priority-input" placeholder="Type priority item" size="40">
+                                <button class="priority-add">ADD</button>
+                                <button class="priority-remove">Remove Complete</button>
+                            </section>
+                        </div>
+                        <div class="main-priority-list-area list-area-style">
+                            <div class="error-div-priority">
+                                <p class="priority-error">
+                                    <!-- Error message for empty priority item -->
+                                </p>
+                            </div>
+                            <ul class="priority-ul">
+                                <!-- List items dynamically added -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-todo">
+                        <section class="main-todo-header header-area-style">
+                            <section class="group-item">
+                                <input class="todo-input" type="text" name="todo-input" placeholder="Type item To-Do" size="40">
+                                <button class="todo-add">ADD</button>
+                                <button class="todo-remove">Remove Complete</button>
+                            </section>
+                        </section>
+                        <section class="main-todo-list-area list-area-style">
+                            <div class="error-div-todo">
+                                <p class="todo-error">
+                                    <!-- Error message for empty todo items -->
+                                </p>
+                            </div>
+                            <ul class="todo-ul">
+                                <!-- Todo items dynamically added -->
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="spacer-hor">
+                    <!-- Null -->
+                </div>
+                <div class="notes-main">
+                    <section class="notes-title header-area-style">
+                        <div class="group-item">
+                            <input class="notes-input" type="text" name="notes-input" placeholder="Type item for notes" size="60">
+                            <button class="notes-add">ADD</button>
+                            <button class="notes-remove">Remove Complete</button>
+                        </div>
+                    </section>
+                    <section class="notes-list-area list-area-style">
+                        <div class="error-div-notes">
+                            <p class="notes-error">
+                                <!-- Error message for empty notes item -->
+                            </p>
+                        </div>
+                        <ul class="notes-ul">
+                            <!-- List items added dynamically -->
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+        
+        <script src="./main.js"></script>
+    </body>
+</html>
